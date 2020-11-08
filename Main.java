@@ -10,5 +10,9 @@ class Main {
       String name = sc.nextLine();
       studentNames[x]= name; 
     }
+    int i = 0;// Print out students names and seat numbers.
+    while(i<15) {
+      System.out.println(studentNames[i] + " sits in seat # " + seatNumbers[i] );
+    }
   }
 }
