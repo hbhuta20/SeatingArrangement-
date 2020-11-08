@@ -5,6 +5,7 @@ class Main {
     String[] studentNames = new String[15]; // Defined an array for student names.
     Scanner sc = new Scanner(System.in); 
     //Read student names in from scanner and save to array.
+    System.out.println("Please enter 15 students names:");
     for(int x=0; x < 15; x++)
     {
       String name = sc.nextLine();
@@ -13,6 +14,7 @@ class Main {
     int i = 0;// Print out students names and seat numbers.
     while(i<15) {
       System.out.println(studentNames[i] + " sits in seat # " + seatNumbers[i] );
+      i++;
     }
   }
 }
