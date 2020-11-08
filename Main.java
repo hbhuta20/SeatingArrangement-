@@ -18,6 +18,6 @@ class Main {
       i++;//incrementing counter 
     }
     System.out.println("Good luck handling the students!!");
-    System.out.println("Have a Great Day :)")
+    System.out.println("Have a Great Day :)");
   }
 }
