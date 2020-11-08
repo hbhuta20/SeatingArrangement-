@@ -12,6 +12,7 @@ class Main {
       studentNames[x]= name; 
     }
     int i = 0;// Print out students names and seat numbers.
+    System.out.println("Here are the seating arrangment:");
     while(i<15) {
       System.out.println(studentNames[i] + " sits in seat # " + seatNumbers[i] );
       i++;
